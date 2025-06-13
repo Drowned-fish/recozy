@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/types/index.d.ts",
+  "homepage": "https://github.com/Drowned-fish/recozy",
   "files": [
     "dist"
   ],
@@ -23,6 +24,10 @@
   ],
   "author": "Yizhen Zhuang",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drowned-fish/recozy.git"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
