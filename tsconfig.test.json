@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "jsx": "react",
+      "declaration": true,
+      "declarationDir": "dist/types",
+      "sourceMap": true,
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*", "__tests__/**/*", "jest.setup.ts"],
+    "exclude": ["node_modules", "dist"]
+  }

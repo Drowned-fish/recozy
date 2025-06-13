@@ -1,0 +1,9 @@
+src/
+demo/
+__tests/
+.git/
+.gitignore
+tsconfig.json
+rollup.config.js
+jest.config.js
+.vscode/
